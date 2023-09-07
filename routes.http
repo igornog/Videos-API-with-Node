@@ -1,0 +1,31 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "title": "Video Node",
+  "description": "Video 1 description",
+  "url": "https://www.youtube.com/watch?v=1",
+  "duration": 100
+}
+
+###
+
+GET http://localhost:3333/videos?search=
+
+###
+
+PUT http://localhost:3333/videos/3d18c128-c373-4662-9c2f-d70e2e9a2434
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "title": "Video 01",
+  "description": "Video 1 description",
+  "url": "https://www.youtube.com/watch?v=1",
+  "duration": 100
+}
+
+###
+
+DELETE http://localhost:3333/videos/3d18c128-c373-4662-9c2f-d70e2e9a2434
