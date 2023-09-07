@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://videos-api-5ypx.onrender.com/videos
 Content-Type: application/json
 Accept-Language: en
 
@@ -11,11 +11,11 @@ Accept-Language: en
 
 ###
 
-GET http://localhost:3333/videos?search=
+GET https://videos-api-5ypx.onrender.com/videos?search=
 
 ###
 
-PUT http://localhost:3333/videos/3d18c128-c373-4662-9c2f-d70e2e9a2434
+PUT https://videos-api-5ypx.onrender.com/videos/53da5817-02d4-47af-8558-44c50bae1808
 Content-Type: application/json
 Accept-Language: en
 
@@ -28,4 +28,4 @@ Accept-Language: en
 
 ###
 
-DELETE http://localhost:3333/videos/3d18c128-c373-4662-9c2f-d70e2e9a2434
+DELETE https://videos-api-5ypx.onrender.com/videos/53da5817-02d4-47af-8558-44c50bae1808
