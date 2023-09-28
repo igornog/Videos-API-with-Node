@@ -1,4 +1,4 @@
-# Videos-API-with-Node
+# videos-api
 Working with NodeJS & Postgres
 
 ## Live at: https://videos-api-5ypx.onrender.com/videos
